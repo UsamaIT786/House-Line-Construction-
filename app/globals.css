@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-primary: #0f172a; /* Navy blue */
+  --color-brand-accent: #f97316; /* Safety Orange */
+  --color-brand-light: #f8fafc; /* Light grey/white */
+  
+  --font-sans: "Inter", var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #0f172a;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Base custom utility classes if needed */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

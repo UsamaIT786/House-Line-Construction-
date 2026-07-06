@@ -50,7 +50,7 @@ export default function ContactPage() {
                     <Phone className="h-6 w-6 text-brand-accent shrink-0 mt-1" />
                     <div>
                       <h3 className="font-semibold text-lg mb-1">Phone</h3>
-                      <p className="text-gray-300 text-lg">0800 123 4567</p>
+                      <p className="text-gray-300 text-lg">+44 7777 980881</p>
                       <p className="text-gray-400 text-sm mt-1">Mon-Fri from 8am to 5pm</p>
                     </div>
                   </div>
@@ -58,8 +58,8 @@ export default function ContactPage() {
                   <div className="flex items-start gap-4">
                     <Mail className="h-6 w-6 text-brand-accent shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-semibold text-lg mb-1">Email</h3>
-                      <p className="text-gray-300">info@houselineconstruction.co.uk</p>
+                      <h3 className="font-semibold text-lg mb-1">Email Address</h3>
+                      <p className="text-gray-300">info@ahaconstruction.co.uk</p>
                       <p className="text-gray-400 text-sm mt-1">We typically reply within 24 hours</p>
                     </div>
                   </div>
@@ -68,9 +68,7 @@ export default function ContactPage() {
                     <MapPin className="h-6 w-6 text-brand-accent shrink-0 mt-1" />
                     <div>
                       <h3 className="font-semibold text-lg mb-1">Office</h3>
-                      <p className="text-gray-300">123 Builder Lane</p>
-                      <p className="text-gray-300">Construction City, UK</p>
-                      <p className="text-gray-300">CC1 2AB</p>
+                      <p className="text-gray-300">Unit 1D, Former Bury FC Social Club, Gigg Lane, Bury, BL9 9HR</p>
                     </div>
                   </div>
                 </div>
@@ -86,7 +84,7 @@ export default function ContactPage() {
                   </div>
                   <h2 className="text-3xl font-bold text-brand-primary">Message Sent!</h2>
                   <p className="text-lg text-gray-600 max-w-md">
-                    Thank you for reaching out to HouseLine Construction. We have received your inquiry and will be in touch shortly.
+                    Thank you for reaching out to AHA Construction. We have received your inquiry and will be in touch shortly.
                   </p>
                   <button 
                     onClick={() => setIsSubmitted(false)}

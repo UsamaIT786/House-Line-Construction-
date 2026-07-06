@@ -3,7 +3,7 @@ import { ArrowRight, Building, Ruler, Hammer, Factory, Check } from "lucide-reac
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Our Services | HouseLine Construction",
+  title: "Our Services | AHA Construction",
   description: "Explore our comprehensive construction services including New Builds, Home Extensions, Loft Conversions, and Commercial Construction.",
 };
 

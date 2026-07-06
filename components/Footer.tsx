@@ -64,7 +64,7 @@ export default function Footer() {
             <Link href="/" className="flex items-center gap-2">
               <HardHat className="h-8 w-8 text-brand-accent" />
               <span className="font-bold text-xl tracking-tight text-white">
-                HouseLine<span className="text-brand-accent">Construction</span>
+                AHA<span className="text-brand-accent">Construction</span>
               </span>
             </Link>
             <p className="text-sm text-gray-400 mt-4 max-w-xs">
@@ -121,16 +121,27 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
-                <MapPin className="h-5 w-5 text-brand-accent shrink-0 mt-0.5" />
-                <span className="text-sm">123 Builder Lane, Construction City, UK, CC1 2AB</span>
+                <MapPin className="h-5 w-5 text-brand-accent shrink-0 mt-1" />
+                <div className="flex flex-col">
+                  <span className="text-white font-medium text-sm mb-1">Address</span>
+                  <span className="text-sm">
+                    Unit 1D, Former Bury FC Social Club, Gigg Lane, Bury, BL9 9HR
+                  </span>
+                </div>
               </li>
-              <li className="flex items-center gap-3">
-                <Phone className="h-5 w-5 text-brand-accent shrink-0" />
-                <span className="text-sm">0800 123 4567</span>
+              <li className="flex items-start gap-3">
+                <Phone className="h-5 w-5 text-brand-accent shrink-0 mt-1" />
+                <div className="flex flex-col">
+                  <span className="text-white font-medium text-sm mb-1">Contact Number</span>
+                  <span className="text-sm">+44 7777 980881</span>
+                </div>
               </li>
-              <li className="flex items-center gap-3">
-                <Mail className="h-5 w-5 text-brand-accent shrink-0" />
-                <span className="text-sm">info@houselineconstruction.co.uk</span>
+              <li className="flex items-start gap-3">
+                <Mail className="h-5 w-5 text-brand-accent shrink-0 mt-1" />
+                <div className="flex flex-col">
+                  <span className="text-white font-medium text-sm mb-1">Email Address</span>
+                  <span className="text-sm">info@ahaconstruction.co.uk</span>
+                </div>
               </li>
             </ul>
           </div>
@@ -138,7 +149,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-gray-500">
-            &copy; {new Date().getFullYear()} HouseLine Construction. All rights reserved.
+            &copy; {new Date().getFullYear()} AHA Construction. All rights reserved.
           </p>
           <div className="flex space-x-4 text-sm text-gray-500">
             <Link href="#" className="hover:text-white transition-colors">Privacy Policy</Link>

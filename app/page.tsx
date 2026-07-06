@@ -84,7 +84,7 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.7, delay: 0.2 }}
           >
-            HouseLine Construction is your trusted partner for premium residential and commercial building projects across the UK.
+            AHA Construction is your trusted partner for premium residential and commercial building projects across the UK.
           </motion.p>
           
           <motion.div 

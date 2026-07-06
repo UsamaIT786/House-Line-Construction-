@@ -24,7 +24,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center gap-2 group">
             <HardHat className="h-8 w-8 text-brand-accent transition-transform group-hover:scale-110" />
             <span className="font-bold text-xl tracking-tight text-brand-primary">
-              HouseLine<span className="text-brand-accent">Construction</span>
+              AHA<span className="text-brand-accent">Construction</span>
             </span>
           </Link>
 

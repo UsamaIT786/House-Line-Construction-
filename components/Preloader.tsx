@@ -85,7 +85,7 @@ export default function Preloader() {
                 transition={{ duration: 0.6, ease: "easeOut", delay: 1.5 }}
                 className="font-bold text-4xl md:text-5xl tracking-tight text-white"
               >
-                AHA
+                AHA BUILDERS 
               </motion.span>
               <motion.span
                 initial={{ y: 50, opacity: 0 }}
@@ -93,7 +93,7 @@ export default function Preloader() {
                 transition={{ duration: 0.6, ease: "easeOut", delay: 1.7 }}
                 className="font-bold text-4xl md:text-5xl tracking-tight text-brand-accent"
               >
-                Construction
+                & DEVELOPERS
               </motion.span>
             </div>
 

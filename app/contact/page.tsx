@@ -84,7 +84,7 @@ export default function ContactPage() {
                   </div>
                   <h2 className="text-3xl font-bold text-brand-primary">Message Sent!</h2>
                   <p className="text-lg text-gray-600 max-w-md">
-                    Thank you for reaching out to AHA Construction. We have received your inquiry and will be in touch shortly.
+                    Thank you for reaching out to AHA BUILDERS & DEVELOPERS. We have received your inquiry and will be in touch shortly.
                   </p>
                   <button 
                     onClick={() => setIsSubmitted(false)}

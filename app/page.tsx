@@ -84,7 +84,7 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.7, delay: 0.2 }}
           >
-            AHA Construction is your trusted partner for premium residential and commercial building projects across the UK.
+            AHA BUILDERS & DEVELOPERS is your trusted partner for premium residential and commercial building projects across the UK.
           </motion.p>
           
           <motion.div 
@@ -109,33 +109,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="py-16 bg-brand-primary text-white border-y border-white/10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 divide-y sm:divide-y-0 sm:divide-x divide-white/10">
-            {[
-              { value: 15, suffix: "+", label: "Years Experience" },
-              { value: 200, suffix: "+", label: "Projects Completed" },
-              { value: 100, suffix: "%", label: "Client Satisfaction" },
-              { value: 50, suffix: "+", label: "Expert Team Members" },
-            ].map((stat, idx) => (
-              <motion.div 
-                key={idx}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: idx * 0.1 }}
-                className="flex flex-col items-center justify-center text-center p-6 sm:p-0 hover:-translate-y-2 transition-transform duration-300 group"
-              >
-                <div className="text-4xl md:text-5xl font-extrabold text-brand-accent mb-2 group-hover:text-white transition-colors">
-                  <AnimatedCounter value={stat.value} suffix={stat.suffix} />
-                </div>
-                <div className="text-sm text-gray-300 font-medium uppercase tracking-wider">{stat.label}</div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Who We Are Section */}
       <section className="py-20 bg-white">
@@ -245,7 +218,6 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { title: "Modern Luxury Home", category: "New Build", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=800&auto=format&fit=crop" },
-              { title: "Commercial Office Park", category: "Commercial", image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800&auto=format&fit=crop" },
               { title: "Heritage Restoration", category: "Renovation", image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=800&auto=format&fit=crop" },
             ].map((project, idx) => (
               <motion.div 

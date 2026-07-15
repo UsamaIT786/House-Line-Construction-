@@ -8,7 +8,7 @@ import Preloader from "@/components/Preloader";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AHA Construction | Excellence in Building",
+  title: "AHA BUILDERS & DEVELOPERS | Excellence in Building",
   description: "Professional construction company specializing in new builds, home extensions, loft conversions, and commercial construction across the UK.",
 };
 

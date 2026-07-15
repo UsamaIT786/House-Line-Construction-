@@ -3,7 +3,7 @@ import { ArrowRight, Building, Ruler, Hammer, Factory, Check } from "lucide-reac
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Our Services | AHA Construction",
+  title: "Our Services | AHA BUILDERS & DEVELOPERS",
   description: "Explore our comprehensive construction services including New Builds, Home Extensions, Loft Conversions, and Commercial Construction.",
 };
 
@@ -34,15 +34,6 @@ const services = [
     icon: <Hammer className="h-10 w-10 text-brand-accent" />,
     image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
     features: ["Dormer Conversions", "Mansard Conversions", "Velux Windows", "En-suite Installations"]
-  },
-  {
-    id: "commercial",
-    title: "Commercial Construction",
-    shortDesc: "Professional building solutions for businesses.",
-    fullDesc: "We provide comprehensive construction and fit-out services for commercial properties, including offices, retail spaces, and warehouses. We understand the importance of minimizing downtime and delivering projects on schedule.",
-    icon: <Factory className="h-10 w-10 text-brand-accent" />,
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
-    features: ["Office Fit-outs", "Retail Spaces", "Warehouse Construction", "Health & Safety Compliant"]
   }
 ];
 

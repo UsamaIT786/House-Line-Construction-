@@ -23,8 +23,8 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
             <HardHat className="h-8 w-8 text-brand-accent transition-transform group-hover:scale-110" />
-            <span className="font-bold text-xl tracking-tight text-brand-primary">
-              AHA<span className="text-brand-accent">Construction</span>
+            <span className="font-bold text-lg md:text-xl tracking-tight text-brand-primary whitespace-nowrap">
+              AHA BUILDERS <span className="text-brand-accent">& DEVELOPERS</span>
             </span>
           </Link>
 

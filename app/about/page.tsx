@@ -2,8 +2,8 @@ import { Shield, Target, Lightbulb, Heart, CheckCircle2 } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Us | AHA Construction",
-  description: "Learn about AHA Construction's ethos, core values, and our unwavering commitment to safety and quality.",
+  title: "About Us | AHA BUILDERS & DEVELOPERS",
+  description: "Learn about AHA BUILDERS & DEVELOPERS's ethos, core values, and our unwavering commitment to safety and quality.",
 };
 
 export default function AboutPage() {
@@ -31,7 +31,7 @@ export default function AboutPage() {
       <section className="bg-brand-primary text-white py-20 relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1504307651254-35680f356f58?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')] bg-cover bg-center opacity-20" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">About AHA Construction</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">About AHA BUILDERS & DEVELOPERS</h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
             Building the future with passion, precision, and purpose.
           </p>
@@ -46,7 +46,7 @@ export default function AboutPage() {
               <h2 className="text-3xl md:text-4xl font-bold text-brand-primary mb-6">Our Company Ethos</h2>
               <div className="space-y-4 text-lg text-gray-600 leading-relaxed">
                 <p>
-                  At AHA Construction, our ethos is built on a simple foundation: delivering exceptional construction services while treating every client's property as if it were our own.
+                  At AHA BUILDERS & DEVELOPERS, our ethos is built on a simple foundation: delivering exceptional construction services while treating every client's property as if it were our own.
                 </p>
                 <p>
                   Founded on the principles of hard work and dedication, we have grown into one of the UK's most trusted building firms. We understand that a construction project, whether it's a new home or a commercial space, is a significant investment. That's why we guide you through every step of the process with clarity and professionalism.

@@ -88,7 +88,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-gray-500">
-            &copy; 2026 AHA BUILDERS & DEVELOPERS LTD . All rights reserved.
+            &copy; 2025 AHA BUILDERS & DEVELOPERS LTD . All rights reserved.
           </p>
           <div className="flex space-x-4 text-sm text-gray-500">
             <Link href="#" className="hover:text-white transition-colors">Privacy Policy</Link>

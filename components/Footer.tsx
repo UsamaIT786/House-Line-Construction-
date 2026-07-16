@@ -12,7 +12,7 @@ export default function Footer() {
             <Link href="/" className="flex items-center gap-2">
               <HardHat className="h-8 w-8 text-brand-accent" />
               <span className="font-bold text-lg md:text-xl tracking-tight text-white whitespace-nowrap">
-                AHA BUILDERS <span className="text-brand-accent">& DEVELOPERS</span>
+                AHA BUILDERS <span className="text-brand-accent">& DEVELOPERS LTD</span>
               </span>
             </Link>
             <p className="text-sm text-gray-400 mt-4 max-w-xs">
@@ -88,7 +88,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-gray-500">
-            &copy; 2025 AHA BUILDERS & DEVELOPERS. All rights reserved.
+            &copy; 2026 AHA BUILDERS & DEVELOPERS LTD . All rights reserved.
           </p>
           <div className="flex space-x-4 text-sm text-gray-500">
             <Link href="#" className="hover:text-white transition-colors">Privacy Policy</Link>

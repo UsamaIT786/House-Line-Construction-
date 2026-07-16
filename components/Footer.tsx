@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2">
               <HardHat className="h-8 w-8 text-brand-accent" />
-              <span className="font-bold text-lg md:text-xl tracking-tight text-white whitespace-nowrap">
+              <span className="font-bold text-lg md:text-xl tracking-tight text-white">
                 AHA BUILDERS <span className="text-brand-accent">& DEVELOPERS LTD</span>
               </span>
             </Link>

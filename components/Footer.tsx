@@ -63,9 +63,7 @@ export default function Footer() {
                 <MapPin className="h-5 w-5 text-brand-accent shrink-0 mt-1" />
                 <div className="flex flex-col">
                   <span className="text-white font-medium text-sm mb-1">Address</span>
-                  <span className="text-sm">
-                    Unit 1D, Former Bury FC Social Club, Gigg Lane, Bury, BL9 9HR
-                  </span>
+                  <span className="text-sm">Unit 2B (Former Bury Social Club) Gigg Lane Bury BL9 9HR</span>
                 </div>
               </li>
               <li className="flex items-start gap-3">
